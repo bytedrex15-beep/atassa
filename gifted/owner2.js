@@ -827,7 +827,7 @@ gmd(
       isBotAdmin,
     } = conText;
 
-    if (!isGroup) return reply("❌ This command only works in groups!");
+   // if (!isGroup) return reply("❌ This command only works in groups!");
     if (!isSuperUser && !isAdmin) return reply("❌ Admin/Owner Only Command!");
 
     if (!quotedMsg || !quotedKey)
@@ -842,7 +842,8 @@ gmd(
         );
       }
 
-      await Gifted.sendMessage(from, { delete: quotedKey });
+      const sentMessage = await Gifted.sendMessage(from, { delete: quotedKey });
+      await Gifted.sendMessage(from, { delete: sendMessage.key });
       await react("✅");
     } catch (error) {
       await react("❌");
