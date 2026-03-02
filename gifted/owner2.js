@@ -828,7 +828,7 @@ gmd(
       isBotAdmin,
     } = conText;
 
-   // if (!isGroup) return reply("❌ This command only works in groups!");
+    if (!isGroup) return reply("❌ This command only works in groups!");
     if (!isSuperUser && !isAdmin) return reply("❌ Admin/Owner Only Command!");
 
     if (!quotedMsg || !quotedKey)
