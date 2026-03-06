@@ -60,6 +60,32 @@
   },
   "homepage": "https://github.com/mauricegift/atassa#readme"
 }
+    "gifted-baileys": "^2.0.6",
+    "gifted-btns": "^1.0.0",
+    "gifted-dls": "latest",
+    "google-tts-api": "latest",
+    "jimp": "latest",
+    "mime-types": "^2.1.35",
+    "moment-timezone": "^0.5.45",
+    "node-cache": "^5.1.2",
+    "node-fetch": "^2.7.0",
+    "pg": "latest",
+    "pino": "^7.0.5",
+    "pm2": "latest",
+    "qrcode-terminal": "^0.12.0",
+    "sequelize": "latest",
+    "sharp": "^0.33.0",
+    "wa-sticker-formatter": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauricegift/atassa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mauricegift/atassa/issues"
+  },
+  "homepage": "https://github.com/mauricegift/atassa#readme"
+}
     "fs": "^0.0.1-security",
     "fs-extra": "^11.1.0",
     "gifted-baileys": "^2.0.6",
